@@ -1,0 +1,29 @@
+/* frusola – bright and fruity: kiwi green, raspberry, a squeeze of lime */
+:root {
+  --bg: #FBFDF7;
+  --bg-image: radial-gradient(60% 55% at 0% 0%, rgba(197, 240, 90, .38), transparent 70%),
+              radial-gradient(50% 50% at 100% 100%, rgba(255, 120, 160, .22), transparent 70%),
+              radial-gradient(40% 40% at 100% 0%, rgba(255, 214, 90, .22), transparent 70%);
+  --ink: #12261C; --ink-2: rgba(18, 38, 28, .74); --muted: rgba(18, 38, 28, .52);
+  --line: rgba(18, 38, 28, .14);
+  --accent: #14A15F; --accent-hover: #0F8E52; --accent-ink: #FFFFFF; --accent-2: #F0346A;
+  --btn-shadow: 0 12px 26px -12px rgba(20, 161, 95, .7);
+  --focus-ring: rgba(20, 161, 95, .18);
+  --chip: rgba(18, 38, 28, .05); --chip-hover: rgba(18, 38, 28, .09);
+  --badge-bg: #DFF7C2; --badge-ink: #1C7A2E;
+  --pro-bg: #DFF7C2; --pro-ink: #1C8A3A;
+  --pro2-bg: #FFE0EA; --pro2-ink: #D62A5E;
+  --pro3-bg: #FFF1C4; --pro3-ink: #B07A00;
+  --card: rgba(255, 255, 255, .86); --card-solid: #FFFFFF; --card-line: rgba(18, 38, 28, .08);
+  --card-shadow: 0 30px 70px -36px rgba(30, 80, 40, .38), 0 2px 6px rgba(18, 38, 28, .04);
+  --field: #F7FAF3; --field-line: rgba(18, 38, 28, .13);
+  --g-red: #EF4A4A; --g-amber: #F5B02E; --g-green: #22B35E;
+  --tick: rgba(18, 38, 28, .16); --tick-major: rgba(18, 38, 28, .38); --needle: #12261C;
+  --warn: #D2345A; --todo: #FFF1C4;
+  --fit: 23.5cqi;
+  --display: "Bricolage Grotesque", "Avenir Next", system-ui, sans-serif; --display-weight: 800;
+  --text: "Manrope", "Avenir Next", system-ui, sans-serif;
+  --check: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'%3E%3Cpath d='M2.4 6.3 4.9 8.7 9.6 3.4' fill='none' stroke='%23fff' stroke-width='1.9' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+}
+.domain, .wordmark, .bid__title h2, .why strong, .meter__read strong, .amount__field input, .done h3, .sheet h2, .legal h1 { font-variation-settings: "opsz" 96; }
+.box { -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px); }
